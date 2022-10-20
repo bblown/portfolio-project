@@ -49,6 +49,7 @@
     border-radius: 4px;
     font-size: 18px;
     padding: 15px 30px;
+    
  }
 .btn-branding:hover, .btn-light:hover {
    background-color: var(--background-color);
@@ -69,5 +70,13 @@
      .heading {
    margin-top: 0;
  }
-    
+    h2 {
+      font-size: 25px;
+    }
+     h1 {
+      font-size: 30px;
+    }
+    .project-description {
+      text-align: center;
+    }
  }
