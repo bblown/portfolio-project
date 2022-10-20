@@ -23,6 +23,9 @@
     text-transform: uppercase;
    
  }
+ .heading {
+   margin-top: 100px;
+ }
  .btn-light {
     font-weight: bold;
     padding: 12px 40px;
@@ -46,8 +49,12 @@
     border-radius: 4px;
     font-size: 18px;
     padding: 15px 30px;
-  
  }
+.btn-branding:hover, .btn-light:hover {
+   background-color: var(--background-color);
+  color: white;
+}
+
  .img-fluid {
     border-radius: 4px;
  }
@@ -59,5 +66,8 @@
     h3 {
         padding-top: 0;
     }
+     .heading {
+   margin-top: 0;
+ }
     
  }
