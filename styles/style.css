@@ -127,3 +127,13 @@
    background-color: white;
    color: black;
 }
+.content h1 {
+   padding: 70px 0 100px 0;
+   background-color: var(--background-color);
+   color: white;
+}
+.content {
+   font-family: var(--heading-font-family);
+      text-align: center;
+
+}
