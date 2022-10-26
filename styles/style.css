@@ -2,7 +2,10 @@
     --background-color: #77918E;
     --heading-font-family: 'Inter', sans-serif;
  }
- .conteiner {
+ body {
+   font-family: var(--heading-font-family);
+ }
+ .conteiner-main {
     background-color: var(--background-color);
     font-family: var(--heading-font-family);
     display: block;
@@ -23,6 +26,9 @@
     text-transform: uppercase;
    
  }
+ h4 {
+   font-weight: bold;
+ }
  .heading {
    margin-top: 100px;
  }
@@ -39,6 +45,7 @@
  h3 {
     font-size: 36px;
     padding-top: 70px;
+    font-weight: bold;
  }
  .row {
     padding-top: 20px;
@@ -124,8 +131,10 @@
 }
 
 .conteiner-work  {
+   display: block;
    background-color: white;
    color: black;
+   text-align: center;
 }
 .content h1 {
    padding: 70px 0 100px 0;
@@ -136,4 +145,33 @@
    font-family: var(--heading-font-family);
       text-align: center;
 
+}
+.conteiner-home {
+    padding: 20px 30px 5px 30px;
+}
+.logo {
+   max-height: 40px;
+}
+nav li {
+   display: inline;
+   list-style: none;
+   line-height: 40px;
+   padding: 0;
+   margin-left: 15px;
+   font-weight: bold;
+}
+nav ul {
+   padding: 0;
+   margin: 0;
+}
+nav a {
+   text-decoration: none;
+   color: black;
+}
+nav a:hover {
+   color:#77918E;
+   transition: all 150ms ease-in-out;
+}
+nav li.active a {
+   color: var(--background-color);
 }
