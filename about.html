@@ -19,7 +19,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About me</title>
+    <meta name="description" content="About front-end developer Kateryna">
+    <title>About Kateryna Skyrda</title>
 </head>
 
 <body>
@@ -33,23 +34,23 @@
             </a>
             <ul>
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/" title="Homepage">Home</a>
+                </li>
+                <li class="active">
+                    <a href="/about.html" title="About Kateryna">About</a>
                 </li>
                 <li>
-                    <a href="/about.html" class="active">About</a>
+                    <a href="/work.html" title="Work Projects">Projects</a>
                 </li>
                 <li>
-                    <a href="/work.html">Projects</a>
-                </li>
-                <li>
-                    <a href="/contact.html">Contacts</a>
+                    <a href="/contact.html" title="Contacts of Kateryna Skyrda">Contacts</a>
                 </li>
             </ul>
         </nav>
     </div>
 
     <div class="about-section conteiner">
-        <div class="row">
+        <div class="row mb-5">
             <div class="col-md-6 ">
                 <div class="about">
                     <h1>Hi, I'm Kateryna Skyrda</h1>
@@ -65,14 +66,40 @@
                         actual
                         pixels. </p>
                     <br />
-                    <a href="" class="btn btn-branding">View the projects</a>
+                    <a href="/work.html" class="btn btn-branding" title="Work Projects">View the projects</a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
                 <br />
-                <img src="images/photo2.jpg" alt="" class="img-fluid" width=400px>
-            </div>
+                <img src="images/photo2.jpg" alt="Photo Kateryna" class="img-fluid" width=400px>
+                </div>
+                </div>
+                <footer>
+                    <div class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex">
+                        <div>
+                            <h4>Work Inquiry
+                            </h4>
+                            <p class="text-muted">Let's work together</p>
+                        </div>
+                        <div>
+                            <a href="/contact.html" class="btn btn-branding" title="Contact Kateryna Skyrda">Contact me</a>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center mb-5 mt-5">
+                        <a href="mailto:k.skirda@gmail.com" class="email-link" title="Email Kateryna">k.skirda@gmail.com</a>
+                    </div>
+        <div class="social text-center mb-5">
+            <a href="https://www.linkedin.com/in/skyrdakateryna/" target="_blank" title="LinkedIn Kateryna Skyrda">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="https://github.com/bblown" target="_blank" title="Github Kateryna Skyrda">
+                <i class="fa fa-github" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.facebook.com/katya.skirda" target="_blank" title="Facebook Kateryna Skyrda">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
         </div>
+    </footer>
     </div>
 </body>
 
