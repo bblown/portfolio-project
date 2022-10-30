@@ -28,6 +28,7 @@
  }
  h4 {
    font-weight: bold;
+   font-size: 36px;
  }
  .heading {
    margin-top: 100px;
@@ -72,7 +73,7 @@
  }
 
 
- }
+ 
  .about-section h1 {
    padding-top: 40px;
    font-size: 44px;
@@ -92,6 +93,11 @@
   .about  {
    text-align: left;
   }
+footer .contact-box {
+   background: #D9E2E1;
+   padding: 30px 120px;
+   border-radius: 10px;
+}
 
    @media (max-width: 960px) {
     h3 {
@@ -123,7 +129,13 @@
  
    font-size: 30px;
  }
+ footer .contact-box { 
+   padding: 30px;
 }
+h4 {
+   font-size: 26px;
+}
+   }
 .conteiner-work h1 {
    padding: 70px 0 100px 0;
    background-color: var(--background-color);
@@ -174,4 +186,26 @@ nav a:hover {
 }
 nav li.active a {
    color: var(--background-color);
+}
+footer .email-link {
+   text-decoration: none;
+   color:black;
+   font-size: 24px;
+
+}
+footer .email-link:hover {
+   color: var(--background-color);
+}
+footer .social a {
+   margin: 0 20px;
+   color:black;
+   background-color: #D9E2E1;
+   padding: 11px 14px;
+   font-size: 18px;
+   border-radius: 50%;
+}
+
+footer .social a:hover {
+   background: #77918E;
+   color:white;
 }
