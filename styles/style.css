@@ -168,7 +168,13 @@ footer .contact-box {
  
    font-size: 30px;
  }
-  
+  .content footer {
+   padding: 0;
+   
+}
+.conteiner-work footer {
+   padding: 0;
+}
    }
 nav li {
    display: inline;
